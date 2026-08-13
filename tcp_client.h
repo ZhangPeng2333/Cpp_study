@@ -18,21 +18,25 @@ enum Status
     CONETERR,
     CONETSUC
 };
-
+#define BUF_SIZE 512
 class tcp_client
 {
 private:
     int m_sockfd;
     Status status;
-
+    char sendbuf[BUF_SIZE];
+    char recvbuf[BUF_SIZE];
+    
 public:
+    // 建立发送缓冲区
+
     tcp_client();
 
-    bool tcp_connect(const char *IP, const char *Port);
+    bool m_connect(const char *IP, const char *Port);
 
-    bool tcp_msgsend(const char *msg);
+    bool m_msgsend(const char *msg);
 
-    ssize_t tcp_recv(void *buffer, size_t bufsize);
+    ssize_t m_recv(void *buffer, size_t bufsize);
 
     ~tcp_client();
 };
