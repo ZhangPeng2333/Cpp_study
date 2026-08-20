@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\常用遍历算法">
+      <UniqueIdentifier>{1c571426-42ce-4248-b2fa-e89e41f21008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\常用查找算法">
+      <UniqueIdentifier>{3592b730-94c5-47fd-882b-81e8525e2f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\智能指针">
+      <UniqueIdentifier>{b8876ad6-75b5-4bac-8eca-5fecbdd8506b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\常用排序算法">
+      <UniqueIdentifier>{0c293614-9b07-4fb8-aea8-6a183651f31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\常用拷贝和替换算法">
+      <UniqueIdentifier>{1be04ae2-62eb-4921-b5db-ef1af493a7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\常用算术生成算法">
+      <UniqueIdentifier>{87131a78-bd4a-460a-9447-0c96a79b662a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\常用集合算法">
+      <UniqueIdentifier>{43c89110-3aba-4940-90fa-027162447af7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="for_each.cpp">
+      <Filter>源文件\常用遍历算法</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>源文件\常用遍历算法</Filter>
+    </ClCompile>
+    <ClCompile Include="adjacent_find.cpp">
+      <Filter>源文件\常用查找算法</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search.cpp">
+      <Filter>源文件\常用查找算法</Filter>
+    </ClCompile>
+    <ClCompile Include="find.cpp">
+      <Filter>源文件\常用查找算法</Filter>
+    </ClCompile>
+    <ClCompile Include="find_if.cpp">
+      <Filter>源文件\常用查找算法</Filter>
+    </ClCompile>
+    <ClCompile Include="auto_ptr.cpp">
+      <Filter>源文件\智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="auto_ptr2.cpp">
+      <Filter>源文件\智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="unique_ptr.cpp">
+      <Filter>源文件\智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="count.cpp">
+      <Filter>源文件\常用查找算法</Filter>
+    </ClCompile>
+    <ClCompile Include="count_if.cpp">
+      <Filter>源文件\常用查找算法</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>源文件\常用排序算法</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>源文件\常用排序算法</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse.cpp">
+      <Filter>源文件\常用排序算法</Filter>
+    </ClCompile>
+    <ClCompile Include="copy.cpp">
+      <Filter>源文件\常用拷贝和替换算法</Filter>
+    </ClCompile>
+    <ClCompile Include="replace.cpp">
+      <Filter>源文件\常用拷贝和替换算法</Filter>
+    </ClCompile>
+    <ClCompile Include="replace_if.cpp">
+      <Filter>源文件\常用拷贝和替换算法</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.cpp">
+      <Filter>源文件\常用拷贝和替换算法</Filter>
+    </ClCompile>
+    <ClCompile Include="accumulate.cpp">
+      <Filter>源文件\常用算术生成算法</Filter>
+    </ClCompile>
+    <ClCompile Include="fill.cpp">
+      <Filter>源文件\常用算术生成算法</Filter>
+    </ClCompile>
+    <ClCompile Include="set_intersection.cpp">
+      <Filter>源文件\常用集合算法</Filter>
+    </ClCompile>
+    <ClCompile Include="set_union.cpp">
+      <Filter>源文件\常用集合算法</Filter>
+    </ClCompile>
+    <ClCompile Include="set_difference.cpp">
+      <Filter>源文件\常用集合算法</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
