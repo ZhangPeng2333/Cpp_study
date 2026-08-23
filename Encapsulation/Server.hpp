@@ -16,7 +16,11 @@
 class Server
 {
 public:
-    Server() : fd(), m_isStarted(false), sendbuf(), recvbuf()
+    Server() : 
+        fd(), 
+        m_isStarted(false), 
+        sendbuf(), 
+        recvbuf()
     {
         memset(&addr, 0, sizeof(addr));
         memset(&peer_addr, 0, sizeof(peer_addr));

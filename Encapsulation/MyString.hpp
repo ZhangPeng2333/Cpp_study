@@ -12,7 +12,7 @@ private:
 
 public:
     MyString(const char *str = NULL);
-    MyString(const MyString &other);
+    MyString(const MyString &other);    
     MyString &operator=(const MyString &other);
 
     ~MyString();
