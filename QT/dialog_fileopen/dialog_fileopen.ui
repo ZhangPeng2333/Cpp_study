@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_fileopen</class>
+ <widget class="QDialog" name="dialog_fileopen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>dialog_fileopen</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButton_save">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton_open">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QTextBrowser" name="textBrowser_open"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QProgressBar" name="progressBar">
+       <property name="styleSheet">
+        <string notr="true">QProgressBar {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: #f0f0f0;          /* 未填充部分的背景色（浅灰） */
+    text-align: center;           /* 百分比文字居中 */
+    color: #333;                  /* 文字颜色 */
+    padding: 1px;                 /* 给块留边距，视觉更舒服 */
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                 stop:0 rgb(96, 255, 176),
+                                 stop:1 rgb(200, 220, 255));
+    border-radius: 4px;           /* 与整体圆角匹配，可微调 */
+}</string>
+       </property>
+       <property name="value">
+        <number>25</number>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="textDirection">
+        <enum>QProgressBar::TopToBottom</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QTextBrowser" name="textBrowser_save"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="pushButton_copy">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
