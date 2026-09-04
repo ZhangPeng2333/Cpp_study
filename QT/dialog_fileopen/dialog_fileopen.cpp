@@ -122,8 +122,8 @@ void dialog_fileopen::getSaveFilePath(){
 }
 
 void dialog_fileopen::copy(){
-    if (readPath.isEmpty() || writePath.isEmpty()) {
-        QMessageBox::warning(this, "提示", "请先选择源文件和目标路径！");
+    if (readPath=="" || writePath=="") {
+        QMessageBox::warning(this, "提示", "请先选择要读写的文件路径！");
         return;
     }
     if (!QFile::exists(readPath)) {
@@ -138,6 +138,8 @@ void dialog_fileopen::copy(){
     }
     // 禁用copy open save button
     ui->pushButton_copy->setEnabled(false);
+    ui->pushButton_copy->setText("正在拷贝");
+
     ui->pushButton_open->setEnabled(false);
     ui->pushButton_save->setEnabled(false);
     ui->progressBar->setValue(0);

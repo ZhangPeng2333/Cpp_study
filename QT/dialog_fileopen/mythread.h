@@ -13,7 +13,7 @@ public:
     void setPaths(const QString &src, const QString &dst);
 
 signals:
-    void progressUpdated(int percent);      // 进度 0~100
+    void progressUpdated(int percent);// 更新进度条
     void copyFinished(bool success, QString errorMsg);
 
 protected:
